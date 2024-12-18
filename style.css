@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
 * {
 padding: 0;
 margin: 0;
 box-sizing: border-box;
-font-family: "Bebas Neue", sans-serif;
+font-family: "Bebas Neue",;
 font-weight: 300;
 font-style: normal;
 scroll-behavior: smooth;
@@ -50,6 +52,7 @@ flex-wrap: wrap;
 justify-content: space-around;
 margin: 20px;
 margin-top: 50px;
+font-family: "Roboto Mono"
 }
 .frames img {
 width: 400px;
