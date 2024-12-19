@@ -161,3 +161,86 @@ background-color: rgba(255, 255, 255, 1);
 cursor: pointer;
 border: none;
 }
+
+.projects div img {
+width: 100vw;
+height: auto;
+}
+
+.anothersec {
+border-bottom: 1px solid;
+}
+.t-center {
+margin-top: 100px;
+margin-bottom: 100px;
+text-align: center;
+font-size: 64px;
+}
+
+.quote {
+padding: 156px 10px;
+text-align: center;
+text-wrap: wrap;
+}
+.quote div {
+display: flex;
+justify-content: flex-end;
+}
+
+.quote div p {
+width: 40%;
+text-align: left;
+font-size: 24px;
+}
+
+.imagesec1 {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.img1 {
+height: 80%;
+}
+
+.imagesec2 {
+margin-top: 50px;
+display: flex;
+justify-content: flex-end;
+flex-wrap: wrap;
+}
+
+.imagesec3 {
+margin-top: 50px;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+.imagesec3 img {
+height: 100%;
+}
+
+footer {
+display: flex;
+justify-content: space-between;
+margin: 20px;
+margin-top: 10em;
+align-items: center;
+}
+
+footer button {
+font-family: "Roboto Mono", monospace !important;
+padding: 12px 20px;
+background-color: white;
+color: black;
+border: 1px solid;
+border-radius: 8px;
+cursor: pointer;
+transition: 0.3s;
+}
+
+footer button:hover {
+background-color: black;
+color: white;
+}
