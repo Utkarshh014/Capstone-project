@@ -1,61 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
 
 * {
-padding: 0;
-margin: 0;
-box-sizing: border-box;
-font-family: "Bebas Neue",;
-font-weight: 300;
-font-style: normal;
-scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  scroll-behavior: smooth;
 }
-
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px;
-    border-bottom: 2px solid black;
+p {
+  font-family: "Roboto Mono", monospace !important;
+  font-weight: 400;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-bottom: 2px solid black;
+}
+.ham {
+  display: none;
 }
 
 nav .nav-links a {
-cursor: pointer;
-text-transform: uppercase;
-font-weight: bold;
-margin: 15px;
-color: #333;
-font-size: 22px;
-}
-
-nav .logo{
-font-size: 42px;
-padding : 12px;
-font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  text-transform: capitalize;
+  margin: 15px;
+  color: #333;
+  font-weight: 200;
+  font-size: 24px;
 }
 
 .home {
-display: flex;
-flex-direction: column;
-align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .header {
-text-align: center;
-margin: 100px 0 10px 0;
+  text-align: center;
+  margin: 100px 0 10px 0;
+}
+.header h1 {
+  font-size: 120px;
+}
+.image {
+  margin: 20px;
+}
+.image img {
+  width: 100%;
+  height: auto;
+  border-radius: 56px;
 }
 
 .frames {
-display: flex;
-flex-wrap: wrap;
-justify-content: space-around;
-margin: 20px;
-margin-top: 50px;
-font-family: "Roboto Mono"
+  margin-top: 150px;
+  columns: 380px;
+  place-items: center;
 }
 .frames img {
-width: 400px;
-height: auto;
-padding: 10px;
+  width: 400px;
+  height: auto;
+  padding: 10px;
 }
