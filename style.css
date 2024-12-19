@@ -66,3 +66,98 @@ nav .nav-links a {
   height: auto;
   padding: 10px;
 }
+
+.frames p {
+padding: 10px;
+padding-top: 0px;
+padding-bottom: 2px;
+font-size: 17px;
+}
+
+.frames p:nth-child(3) {
+color: rgba(0, 0, 0, 0.6);
+padding-top: 0px;
+padding-bottom: 10px;
+font-size: 13px;
+}
+
+.about div {
+width: 50vw;
+font-size: 30px;
+}
+
+.abt .image img {
+border-radius: 0 !important;
+}
+
+.featured {
+display: flex;
+/* justify-content: center; */
+align-items: center;
+}
+
+.img {
+width: 25%;
+}
+
+.img img {
+width: 100%;
+}
+
+.featured .detail h1 {
+font-size: 64px;
+padding: 10px;
+}
+
+.featured .detail p {
+padding: 10px;
+font-size: 24px;
+}
+
+.featured .detail button {
+margin: 10px;
+background-color: black;
+border: none;
+border-radius: 8px;
+padding: 10px;
+color: white;
+font-family: "Roboto Mono", monospace;
+cursor: pointer;
+}
+
+.container {
+position: relative;
+/* text-align: center; */
+text-wrap: wrap;
+color: white;
+}
+
+.text {
+position: absolute;
+bottom: 8px;
+left: 16px;
+margin-bottom: 20px;
+}
+
+.text h4 {
+font-weight: bold;
+font-size: 34px;
+line-height: 2;
+}
+.text p {
+width: 90%;
+margin-bottom: 20px;
+}
+
+.text button {
+width: 130px;
+font-size: 15px;
+border-radius: 8px;
+padding: 10px;
+text-align: center;
+text-transform: capitalize;
+font-family: "Roboto Mono", monospace;
+background-color: rgba(255, 255, 255, 1);
+cursor: pointer;
+border: none;
+}
